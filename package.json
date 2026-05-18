@@ -1,0 +1,45 @@
+{
+  "name": "exam-notes-generator-skill",
+  "version": "1.2.0",
+  "description": "Npx-installable AI skill for generating exam-ready LaTeX study notes from course materials (PDF, DOCX, PPTX). Includes diagram extraction, OCR, worked numericals, and complete compilation-ready .tex output.",
+  "bin": {
+    "exam-notes-generator": "bin/cli.js",
+    "eng-skill": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "node bin/cli.js --help"
+  },
+  "keywords": [
+    "exam-notes",
+    "study-notes",
+    "latex",
+    "pdf",
+    "pptx",
+    "docx",
+    "ocr",
+    "ai-skill",
+    "copilot-instructions",
+    "windsurf",
+    "agent-skill"
+  ],
+  "author": "Smayan Kulkarni",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "bin/",
+    "templates/",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmayanKulkarni/QPM-SEM-VI.git",
+    "directory": "exam-notes-generator-skill"
+  },
+  "bugs": {
+    "url": "https://github.com/SmayanKulkarni/QPM-SEM-VI/issues"
+  },
+  "homepage": "https://github.com/SmayanKulkarni/QPM-SEM-VI#readme"
+}
